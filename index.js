@@ -15,4 +15,3 @@ fi = (function() {
 })();
 
 fi.libraryMethod();
-
