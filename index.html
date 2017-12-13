@@ -12,11 +12,23 @@
 
   <body>
     <!-- <div> for Mocha to display test results. -->
+<<<<<<< HEAD
     <div id="mocha"></div>
 
     <!-- Include Mocha and set it up for BDD-style testing. -->
     <script src="node_modules/mocha/mocha.js"></script>
     <script>mocha.setup('bdd');</script>
+=======
+     <div id="mocha"></div>
+
+     <!-- Include Mocha and set it up for BDD-style testing. -->
+     <script src="node_modules/mocha/mocha.js"></script>
+     <script>mocha.setup('bdd');</script>
+
+     <!-- Include Chai as the matcher library. -->
+     <script src="node_modules/chai/chai.js"></script>
+     <script src="node_modules/chai-spies-next/chai-spies.js"></script>
+>>>>>>> 60dabbcf0b9573501ffd35542856b173157b3203
 
     <!-- Include Chai as the matcher library. -->
     <script src="node_modules/chai/chai.js"></script>
@@ -29,6 +41,13 @@
     <script src="test/testArrays.js"></script>
     <script src="test/testHelpers.js"></script>
     <script src="test/indexTest.js"></script>
+<<<<<<< HEAD
+=======
+
+    <!-- Include Flatiron School's test runner to push results to Learn. -->
+     <script src="node_modules/learn-browser/learnBrowser.min.js"></script>
+
+>>>>>>> 60dabbcf0b9573501ffd35542856b173157b3203
 
     <!-- Include Flatiron School's test runner to push results to Learn. -->
     <script src="node_modules/learn-browser/learnBrowser.min.js"></script>

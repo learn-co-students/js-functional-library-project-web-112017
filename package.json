@@ -5,7 +5,12 @@
   "main": "src/index.js",
   "scripts": {
     "postinstall": "gem install learn-co",
+<<<<<<< HEAD
     "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+=======
+    "test":
+      "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+>>>>>>> 60dabbcf0b9573501ffd35542856b173157b3203
   },
   "repository": {
     "type": "git",
@@ -29,6 +34,14 @@
   "devDependencies": {
     "learn-browser": "^0.1.13"
   },
+<<<<<<< HEAD
+=======
+  "homepage":
+    "https://github.com/learn-co-curriculum/js-functional-library-project#readme",
+  "devDependencies": {
+    "learn-browser": "^0.1.13"
+  },
+>>>>>>> 60dabbcf0b9573501ffd35542856b173157b3203
   "dependencies": {
     "chai-spies-next": "^0.9.3"
   }
